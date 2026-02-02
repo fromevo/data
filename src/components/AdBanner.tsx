@@ -30,7 +30,7 @@ export function TopAd() {
   return (
     <div className="w-full py-3 bg-gray-50/80 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4">
-        <p className="text-[10px] text-gray-400 text-center mb-1">Реклама</p>
+        <p className="text-[10px] text-gray-400 text-center mb-1"></p>
         <div className="flex justify-center">
           <YandexAd 
             blockId={AD_BLOCKS.TOP} 
@@ -50,7 +50,7 @@ export function MiddleAd1() {
   return (
     <div className="w-full my-6 py-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl">
       <div className="max-w-4xl mx-auto px-4">
-        <p className="text-[10px] text-gray-400 text-center mb-2">Реклама</p>
+        <p className="text-[10px] text-gray-400 text-center mb-2"></p>
         <div className="flex justify-center">
           <YandexAd 
             blockId={AD_BLOCKS.MIDDLE_1} 
@@ -70,7 +70,7 @@ export function MiddleAd2() {
   return (
     <div className="w-full my-6 py-4 bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl">
       <div className="max-w-4xl mx-auto px-4">
-        <p className="text-[10px] text-gray-400 text-center mb-2">Реклама</p>
+        <p className="text-[10px] text-gray-400 text-center mb-2"></p>
         <div className="flex justify-center">
           <YandexAd 
             blockId={AD_BLOCKS.MIDDLE_2} 
@@ -90,7 +90,7 @@ export function BottomAd() {
   return (
     <div className="w-full py-4 bg-gray-100 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4">
-        <p className="text-[10px] text-gray-400 text-center mb-2">Реклама</p>
+        <p className="text-[10px] text-gray-400 text-center mb-2"></p>
         <div className="flex justify-center">
           <YandexAd 
             blockId={AD_BLOCKS.BOTTOM} 
